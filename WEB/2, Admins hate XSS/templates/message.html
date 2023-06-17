@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>osef le titre</title>
+</head>
+<body>
+
+<h1>The Admin can see the flag in /flag. This time he use a stronger cookie so you can't guess it.</h1>
+
+<form action="/{{action_name}}" method="POST">
+<b>Username</b><br>
+<input type='username' name='username'/><br>
+<b>Message</b><br>
+<input type='message' name='message'/><br>
+
+<button type="submit" class="btn btn-primary btn-lg btn-block">Send message</button>
+</form>
+
+<pre>{{messages}}</pre>
+</body>
+</html>
